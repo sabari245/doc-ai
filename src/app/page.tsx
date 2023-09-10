@@ -60,7 +60,17 @@ export default function Home() {
           ))}
         </ScrollArea>
         <div className="w-full max-w-4xl">
-          {/* TODO: add the chat box here */}
+          <textarea
+            className="h-8 resize-none border border-gray-300 rounded px-2 py-1"
+            style={{
+              height: "1rem",
+              maxHeight: "5rem",
+            }}
+          />
+          <button className="bg-blue-500 text-white px-4 py-2 rounded mt-2">
+            Submit
+          </button>
+          
         </div>
       </div>
     </main>
